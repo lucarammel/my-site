@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "lucarammel-portfolio"
+name = "lucarammel-github-io"
 version = "0.1.0"
 description = ""
-authors = ["lucarammel <lucaspereira@gmail.com>"]
+authors = ["Lucas Pereira <lucaspereira0497@gmail.com>"]
 readme = "README.md"
+packages = [{include = "lucarammel"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-mkdocs = "^1.6.1"
 mkdocs-material = "^9.5.44"
 
 
