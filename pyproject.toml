@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "lucarammel"
+name = "lucarammel-portfolio"
 version = "0.1.0"
 description = ""
 authors = ["lucarammel <lucaspereira@gmail.com>"]
