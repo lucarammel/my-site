@@ -8,7 +8,7 @@ site_url: https://lucarammel.github.io/
 nav:
   - About: index.md
   - Projects: projects.md
-  - Contact: contact.md
+  - CV: cv.md
 
 plugins:
   - search
@@ -17,10 +17,10 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/your-linkedin-profile
+      link: https://www.linkedin.com/in/lucasmagustopereira/
       name: "LinkedIn"
     - icon: fontawesome/brands/github
-      link: https://github.com/your-github-profile
+      link: https://github.com/lucarammel
       name: "GitHub"
 
 extra_css:
