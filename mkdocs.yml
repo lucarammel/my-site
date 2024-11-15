@@ -2,7 +2,21 @@ site_name: "Lucas Pereira"
 site_description: "Data Scientist in the Energy Industry"
 theme:
   name: material
+  palette:
+  - scheme: default
+    primary: red
+    accent: red
+    toggle:
+      icon: material/weather-night
+      name: Switch to light mode
 
+  # Palette toggle for dark mode
+  - scheme: slate
+    primary: red
+    accent: red
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to dark mode
 
 nav:
   - About: index.md
@@ -21,6 +35,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/lucarammel
       name: "GitHub"
+  generator: false
 
 extra_css:
   - stylesheets/extra.css
+
+copyright: Copyright &copy; 2024 - Lucas Pereira
