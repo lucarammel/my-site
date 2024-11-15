@@ -3,7 +3,7 @@ site_description: "Data Scientist in the Energy Industry"
 theme:
   name: material
 
-site_url: https://lucarammel.github.io/
+site_url: https://lucarammel.io/
 
 nav:
   - About: index.md
