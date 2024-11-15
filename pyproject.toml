@@ -1,16 +1,9 @@
-[tool.poetry]
+[project]
 name = "lucarammel-github-io"
 version = "0.1.0"
-description = ""
-authors = ["Lucas Pereira <lucaspereira0497@gmail.com>"]
+description = "My portfolio !"
 readme = "README.md"
-packages = [{include = "lucarammel"}]
-
-[tool.poetry.dependencies]
-python = "^3.10"
-mkdocs-material = "^9.5.44"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs-material>=9.5.44",
+]

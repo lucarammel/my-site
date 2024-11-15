@@ -12,5 +12,5 @@ This tool facilitates the migration of data from MySQL to PostgreSQL, ensuring t
 ## [Corrclim](https://github.com/lucarammel/corrclim)
 A R toolbox for facilitating climatic correction of timeseries and the implementation of new models.
 
-## [Good Practices]((https://github.com/lucarammel/goodPracticesR))
+## [R Good Practices]((https://github.com/lucarammel/goodPracticesR))
 A quick guide to get into good practices while coding in R ! 
