@@ -1,0 +1,27 @@
+.rounded-photo {
+    display: block;
+    margin: 20px auto;
+    width: 200px;  /* Adjust size as needed */
+    height: 200px; /* Make sure width and height are equal for a perfect circle */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover;  /* Ensures the image covers the rounded area */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0); /* Optional shadow */
+}
+
+/* Optional: Style adjustments for social media icons if needed */
+.md-footer-social a {
+    margin: 0 10px; /* Space between icons */
+    color: #007bff; /* Link color */
+    transition: color 0.3s ease;
+}
+
+.md-footer-social a:hover {
+    color: #0056b3; /* Hover color for icons */
+}
+
+/* Optional: Style the custom SVG Malt icon */
+.md-footer-social a[href*="malt"] img {
+    width: 24px;  /* Adjust the size */
+    height: 24px;
+    vertical-align: middle; /* Center the icon vertically */
+}

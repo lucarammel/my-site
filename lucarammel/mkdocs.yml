@@ -1,0 +1,27 @@
+site_name: "Lucas Pereira"
+site_description: "Data Scientist in the Energy Industry"
+theme:
+  name: material
+
+site_url: https://lucarammel.github.io/
+
+nav:
+  - About: index.md
+  - Projects: projects.md
+  - Contact: contact.md
+
+plugins:
+  - search
+
+# Social media links with icons using MkDocs Material
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/your-linkedin-profile
+      name: "LinkedIn"
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-github-profile
+      name: "GitHub"
+
+extra_css:
+  - stylesheets/extra.css
